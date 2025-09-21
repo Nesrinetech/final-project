@@ -16,18 +16,18 @@ class _OnboardingPageState extends State<OnboardingPage> {
   final List<Map<String, String>> _onboardingData = [
     {
       "images": "assets/images/image1.png",
-      "title": "empty",
-      "text": "Lorem fnegnegpeow",
+      "title": "Now reading books will be easier",
+      "text": " Discover new worlds, join a vibrant reading community. Start your reading adventure effortlessly with us.",
     },
     {
       "images": "assets/images/image2.png",
-      "title": "empty",
-      "text": "Lorem fnegnegpeow",
+      "title": "Your Bookish Soulmate Awaits",
+      "text": "Let us be your guide to the perfect read. Discover books tailored to your tastes for a truly rewarding experience.",
     },
     {
       "images": "assets/images/image3.png",
-      "title": "empty",
-      "text": "Lorem fnegnegpeow",
+      "title": "Start Your Adventure",
+      "text": "Ready to embark on a quest for inspiration and knowledge? Your adventure begins now. Let's go!",
     },
   ];
 

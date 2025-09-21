@@ -22,45 +22,45 @@ class _HomePageState extends State<HomePage> {
   final List<Map<String, String>> _books =  const [
     {
       "image": "assets/images/image4.png",
-      "title": "empty",
-      "price": "Lorem fnegnegpeow",
+      "title": "The Kite Runner",
+      "price": "$14.99",
     },
     {
       "image": "assets/images/image5.png",
-      "title": "empty",
-      "price": "Lorem fnegnegpeow",
+      "title": "The Kite Runner",
+      "price": "$20.99",
     },
     {
       "image": "assets/images/image6.png",
-      "title": "empty",
-      "price": "Lorem fnegnegpeow",
+      "title": "The Kite Runner",
+      "price": "$14.99",
     },
   ];
   final List<Map<String, String>> _vendors =  const [
     {
       "image": "assets/images/image8.png",
        
-      "name": "Lorem fnegnegpeow",
+      "name": "Empty",
     },
     {
       "image": "assets/images/image9.png",
        
-      "name": "Lorem fnegnegpeow",
+      "name": "Empty",
     },
     {
       "image": "assets/images/image10.png",
        
-      "name": "Lorem fnegnegpeow",
+      "name": "Empty",
     },
   ];
   final List<Map<String, String>> _authors =  const [
     {
-      "image": "assets/images/image11.png",
+      "image": "assets/images/image12.png",
       "name": "John Freeman",
       "subtitle": "Writer",
     },
     {
-      "image": "assets/images/image12.png",
+      "image": "assets/images/image13.png",
       "name": "Tess Gunty",
       "subtitle": "Novelist",
     },
@@ -320,9 +320,23 @@ SizedBox(
                   'Authors',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
+
+
+
+                //    TextButton(
+                //   onPressed: () {
+                //     Navigator.pushNamed(context, '/vendors');
+                //   },
+                //   child: const Text('See all',
+                //   style: TextStyle(color: Colors.blue),
+                // ),
+
+
                 TextButton(
-                  onPressed: () {},
-                  child: const Text('See all'),
+                  onPressed: () { Navigator.pushNamed(context, '/authors');},
+                  child: const Text('See all',
+                  style: TextStyle(color: Colors.blue),
+                  ),
                 ),
             ],
               ),

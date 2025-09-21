@@ -10,6 +10,7 @@ import 'home_page.dart';
 import 'sign_in_page.dart';
 import 'sign_up_page.dart';
 import 'vendors.dart';
+import 'authors.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
         '/signin': (_) => const SignInPage(),
         '/signup': (_) => const SignUpPage(),
         '/vendors': (_) => const Vendors(),
+        '/authors': (_) => const Authors(),
       },
     );
   }
