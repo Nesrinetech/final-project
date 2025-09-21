@@ -23,17 +23,17 @@ class _HomePageState extends State<HomePage> {
     {
       "image": "assets/images/image4.png",
       "title": "The Kite Runner",
-      "price": "$14.99",
+      "price": "14.99",
     },
     {
       "image": "assets/images/image5.png",
       "title": "The Kite Runner",
-      "price": "$20.99",
+      "price": "20.99",
     },
     {
       "image": "assets/images/image6.png",
       "title": "The Kite Runner",
-      "price": "$14.99",
+      "price": "14.99",
     },
   ];
   final List<Map<String, String>> _vendors =  const [
